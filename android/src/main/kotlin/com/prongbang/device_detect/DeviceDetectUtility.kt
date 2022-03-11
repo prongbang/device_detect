@@ -5,6 +5,9 @@ import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 
+/**
+ * Thank you: Muyangmin - https://gist.github.com/Muyangmin/e8ec1002c930d8df3df46b306d03315d
+ */
 class DeviceDetectUtility : DetectUtility {
 
     override fun isMi(): Boolean = checkSystemProperty("ro.miui.ui.version.name")
